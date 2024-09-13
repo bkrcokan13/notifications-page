@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Notifications Page</title>
+
+</head>
+
+<body>
+  <div class="notification-container">
+
+    <!--Notification Header-->
+    <div class="notification-header">
+      <div class="header-title">
+        <h1>Notifications <span id="notification-count">3</span></h1>
+      </div>
+      <a href="javascript:void(0)" id="mark-all-btn">Mark all as read</a>
+    </div>
+
+    <!--Notification Body-->
+    <div class="notification-body">
+      <div class="notification-box unread-message">
+        <div class="notification-title">
+          <div class="user-picture">
+            <img src="assets/images/avatar-mark-webber.webp" alt="" width="40">
+          </div>
+          <div class="notification-details">
+            <div class="notification-message">
+              <p><b>Mark Webber</b> reacted to your recent post <b id="post-info-side">My first tournament today!</b>
+              <div class="unread-notification-icon"></div>
+              </p>
+            </div>
+            <div class="notification-time">
+              <p>1m ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="notification-box unread-message">
+        <div class="notification-title">
+          <div class="user-picture">
+            <img src="assets/images/avatar-angela-gray.webp" alt="" width="40">
+          </div>
+          <div class="notification-details">
+            <div class="notification-message">
+              <p><b>Angela Gray</b> followed you
+              <div class="unread-notification-icon"></div>
+              </p>
+            </div>
+            <div class="notification-time">
+              <p>5m ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="notification-box unread-message">
+        <div class="notification-title">
+          <div class="user-picture">
+            <img src="assets/images/avatar-jacob-thompson.webp" alt="" width="40">
+          </div>
+          <div class="notification-details">
+            <div class="notification-message">
+              <p><b>Jacob Thompson</b> has joined your group <b id="post-group-side">Chess Club</b>
+              <div class="unread-notification-icon"></div>
+              </p>
+            </div>
+            <div class="notification-time">
+              <p>1 day ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="notification-box">
+        <div class="notification-title">
+          <div class="user-picture">
+            <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="" width="40">
+          </div>
+          <div class="notification-details">
+            <div class="notification-message">
+              <p><b>Rizky Hasanuddin</b> sent you a private message</p>
+            </div>
+            <div class="notification-time">
+              <p>5 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="notification-message-preview">
+          <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+        </div>
+      </div>
+
+      <div class="notification-box">
+        <div class="notification-title">
+          <div class="user-picture">
+            <img src="assets/images/avatar-kimberly-smith.webp" alt="" width="40">
+          </div>
+          <div class="notification-details">
+            <div class="notification-message">
+              <p><b>Kimberly Smith</b> commented on your picture <b id="post-group-side">Chess Club</b></p>
+            </div>
+            <div class="notification-time">
+              <p>1 week ago</p>
+            </div>
+          </div>
+          <div id="post-picture"></div>
+        </div>
+      </div>
+
+      <div class="notification-box">
+        <div class="notification-title">
+          <div class="user-picture">
+            <img src="assets/images/avatar-nathan-peterson.webp" alt="" width="40">
+          </div>
+          <div class="notification-details">
+            <div class="notification-message">
+              <p><b>Nathan Peterson</b> reacted to your recent post <b id="post-info-side">5 end-game strategies to increase your win rate</b>
+              </p>
+            </div>
+            <div class="notification-time">
+              <p>2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="notification-box">
+        <div class="notification-title">
+          <div class="user-picture">
+            <img src="assets/images/avatar-jacob-thompson.webp" alt="" width="40">
+          </div>
+          <div class="notification-details">
+            <div class="notification-message">
+              <p><b>Anna Kim</b> left the group <b id="post-group-side">Chess Club</b>
+              </p>
+            </div>
+            <div class="notification-time">
+              <p>2 weeks ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
